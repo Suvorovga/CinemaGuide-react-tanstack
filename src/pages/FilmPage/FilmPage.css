@@ -1,0 +1,21 @@
+.film-info__section {
+  padding-bottom: 120px;
+}
+
+.film-info__main-title {
+  color: white;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bold;
+  margin-bottom: 64px;
+}
+
+.film-info__item {
+  color: rgba(255, 255, 255, .7);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.film-info__item:not(:last-child) {
+  margin-bottom: 24px;
+}

@@ -1,0 +1,15 @@
+.account-favorite__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  justify-content: center;
+}
+
+.account-favorite__item {
+  position: relative;
+  margin-bottom: 64px;
+}
+
+
+

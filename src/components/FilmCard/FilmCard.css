@@ -1,0 +1,53 @@
+.film-card__container {
+  cursor: pointer;
+}
+
+.account-favorite__item:hover .delet-from-favorite__btn {
+  display: block;
+}
+
+.account-favorite__item:hover .film-card__image {
+  border: 2px solid white;
+}
+
+.film-card__image {
+  width: 224px;
+  height: 336px;
+  border-radius: 25px;
+  box-shadow: 0 0 80px 0 rgba(255, 255, 255, .33);
+}
+
+.film-card__image:hover {
+  border: 2px solid white;
+}
+
+.film-card__number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 48px;
+  transform: translate(-15%, -15%);
+  background-color: white;
+  color: #6A5DC2;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.delet-from-favorite__btn {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+  border-radius: 30px;
+  background-color: white;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+  z-index: 100;
+}
+

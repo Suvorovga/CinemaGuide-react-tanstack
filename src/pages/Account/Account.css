@@ -1,0 +1,45 @@
+.account__section {
+  padding-top: 160px;
+}
+
+.container.account__container {
+  margin-bottom: 64px;
+}
+
+.account__title {
+  color: white;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: bold;
+  margin-bottom: 64px;
+}
+
+.account__menu-list {
+  display: flex;
+  align-items: center;
+}
+
+.account__menu-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.account__menu-item:first-child {
+  margin-right: 64px;
+}
+
+.account__menu-link__img {
+  margin-right: 6px;
+}
+
+.account__menu-item.active {
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgba(220, 93, 252, 1);
+}
+
+.account__menu-link__text-375 {
+  display: none;
+}

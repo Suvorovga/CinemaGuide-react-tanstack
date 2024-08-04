@@ -1,0 +1,59 @@
+.account-info__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+
+.account-info__item {
+  display: flex;
+}
+
+.account-info__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.account-info__avatar {
+  width: 60px;
+  height: 60px;
+  color: white;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  margin-right: 16px;
+}
+
+.account-info__descr {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.account-info__descr-title {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.account-info__descr-info {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+.logout-btn {
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  padding: 16px 48px;
+  background-color: rgba(106, 93, 194, 1);
+  border-radius: 28px;
+  cursor: pointer;
+  display: inline-flex;
+  margin-bottom: 400px;
+}

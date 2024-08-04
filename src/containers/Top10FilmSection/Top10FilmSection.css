@@ -1,0 +1,23 @@
+.top-film__container{
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+
+.top-film__title {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 64px;
+}
+
+.top-film__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 64px;
+}
+
+.top-film__item {
+  position: relative;
+}

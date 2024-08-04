@@ -1,0 +1,38 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.footer__descr {
+  display: flex;
+  align-items: center;
+}
+
+.footer__descr-text1 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+.footer__descr-img {
+  margin-right: 12px;
+}
+
+.footer__descr-text2 {
+  color: white;
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.footer__descr-text2__container {
+  display: flex;
+  align-items: center;
+}
+
+.footer__links a:not(:last-child) {
+  margin-right: 24px;
+}
+
